@@ -1,0 +1,33 @@
+An angular directive is:
+The same thing as a Controller
+A way to define a custom element or attribute.
+A way to use ng-app
+A way for angular to communicate with a specific API
+
+ -----respuest: A way to define a custom element or attribute.
+
+Write the JavaScript code necessary to create a controller named "PageController" which prints the string "hello world" as soon as the page loads and the controller runs.
+
+-----respuesta: app.controller("PageController", ['$scope', function($scope){ console.log('hello wordl'); }])
+
+Given the following angular module declaration:
+
+var app = angular.module("CookiesApp", ['ngRoute', 'ngAnimate']);
+
+How do you bind this angular module to a particular portion of your html page (for instance the body tag)?
+
+Run Euclid’s GCD algorithm for the following pairs of numbers. Show work.
+
+10, 99 99 10 89 10...... 9 10 10 9 10 - 9 1
+
+12, 128
+
+128 12 116 12 104 12 92 12 80 12 68-12 56-12 44-12 32-12 20-12 8-12 12-8 4
+
+65536, 1024 64
+
+24, 40 8
+
+58, 57 1
+
+32, 48 16
